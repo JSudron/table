@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Table</title>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-  <script type="text/javascript" src="js/my_script.js"></script>
-
+  <title>Challenge B</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
   <style>
     td, th {
       width: 5rem;
@@ -22,15 +23,19 @@
       padding: 1rem;
       font-family: Roboto;
     }
-    .odd {
-      background-color: #E84610;
+    /*class to be added to jquery function to change row colors*/
+    .selection{
+      background-color:  #c65353;
     }
-    .even {
-      background-color: #C65353;
-    }
-  </style>  
+    
+    
+    
+  </style>
+  
+  
 </head>
 <body>
+  <!--create a table-->
   <table>
     <tr>
       <th></th>
@@ -75,5 +80,7 @@
       <td>Fruit</td>
     </tr>
   </table>
+  <!--add your own jquery files here-->
+  <script  src="js/my_script.js"></script>
 </body>
 </html>
